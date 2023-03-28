@@ -1,0 +1,20 @@
+<h2>Booking Details</h2> 
+
+<hr/>
+<div *ngIf="booking deatils">
+  <div>
+    <label><b>drone location: </b></label> {{booking.drone location}}
+  </div>
+  <div>
+    <label><b>drone_shot_id: </b></label> {{booking.drone_shot_id}}
+  </div>
+  <div>
+    <label><b>create_time: </b></label> {{booking.create_time}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Employee List</button><br>
+
+
